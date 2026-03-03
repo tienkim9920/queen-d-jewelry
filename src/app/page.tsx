@@ -7,11 +7,11 @@ import TestimonialSection from "./sections/homes/TestimonialSection";
 import ProductSection from "./sections/homes/ProductSection";
 
 export const metadata: Metadata = {
-  title: "Nineweb Solution - Thiết Kế Website & Landing Page Chuẩn SEO",
+  title: "QueenD Jewelry - Thiết Kế Website & Landing Page Chuẩn SEO",
   description:
-    "Nineweb Solution chuyên thiết kế website chuẩn SEO, Landing Page tối ưu chuyển đổi và Ecommerce cho cá nhân, doanh nghiệp. Giải pháp website toàn diện giúp tăng trưởng bền vững và tối đa doanh thu.",
+    "QueenD Jewelry chuyên thiết kế website chuẩn SEO, Landing Page tối ưu chuyển đổi và Ecommerce cho cá nhân, doanh nghiệp. Giải pháp website toàn diện giúp tăng trưởng bền vững và tối đa doanh thu.",
   keywords:
-    "thiết kế website, website chuẩn SEO, landing page chuyển đổi, thiết kế ecommerce, giải pháp website doanh nghiệp, Nineweb Solution",
+    "thiết kế website, website chuẩn SEO, landing page chuyển đổi, thiết kế ecommerce, giải pháp website doanh nghiệp, QueenD Jewelry",
   openGraph: {
     title: "Nineweb Solution - Giải Pháp Website Chuẩn SEO & Tăng Trưởng",
     description:
@@ -33,9 +33,9 @@ export default function Home() {
   return (
     <div>
       <IntroSection />
-      <HeroSection />
-      <FinalCTASection />
       <ProductSection />
+      <FinalCTASection />
+      <HeroSection />
       <TestimonialSection />
       <FAQSection />
     </div>

@@ -12,7 +12,7 @@ export default function ClientLayout({
     children: React.ReactNode;
 }>) {
     const pathname = usePathname();
-    const isLandingPage = pathname.includes('trang-suc');
+    const isLandingPage = pathname.includes('cms') || pathname.includes('admin');
     return (
         <>
             {!isLandingPage && <Navbar />}

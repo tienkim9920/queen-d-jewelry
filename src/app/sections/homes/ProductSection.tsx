@@ -86,7 +86,7 @@ const ProductSection = () => {
                             key={i}
                             className={`group relative rounded-[40px] overflow-hidden 
                             bg-white/5 backdrop-blur-xl border border-white/10
-                            hover:border-white/20 transition duration-500 reveal delay-${i + 1}`}
+                            hover:border-white/20 transition duration-500 reveal delay-${i + 1} pointer`}
                         >
                             <div className="grid md:grid-cols-2">
 
